@@ -1,0 +1,133 @@
+body{
+    background-color: antiquewhite;
+    font-family: "Algerian"
+    
+}
+/* Incluye titulo y barra de navegación*/
+
+.headerC{
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke
+}
+
+.titulo{
+    display: flex;
+    font-family: "Algerian";
+    padding: 3PX;
+    margin: 7px;
+    flex-direction: column;
+    align-items: center;
+}
+header .navbar ul{
+    list-style: none;
+    margin: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+header .navbar ul li{
+    position: relative;
+}
+
+header .navbar ul li a{
+      font-size: 20px;
+      padding: 20px;
+      color: #333;
+      display: block;
+}
+
+header .navbar ul li a:hover{
+   background-color: antiquewhite;}
+
+
+/* Fin Header*/
+
+/* IMAGEN DEL LOCAL*/
+
+.Img-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.casa{
+    width: 100%;
+    image-rendering: auto;
+    height: 40vw;
+    float: right;
+}
+
+/* FIN IMG LOCAL*/
+/* FIN IMG LOCAL*/
+
+/* GALERIA*/
+  .galeria ul{
+    list-style: none;
+    margin: 0px;
+    display: flex;
+    justify-content: space-around;
+  }
+.galeria ul li{
+    position: relative;
+  }
+.galeria ul li a{
+    font-size: 20px;
+    padding: 20px;
+    color: #333;
+    display: block;
+    }
+
+.titulo-galeria{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    }
+.contenedor > img{
+    margin-left:2px ;
+    height: 230px;
+    width: 255px;
+    border: solid 2px rgba(239, 233, 239, 0.666);
+}
+
+.contenedor > img:hover{
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    box-shadow: 0px 0px 15px 15px #f5e6f0a9;
+    -webkit-box-shadow: 0px 0px 15px 15px #f0d3eaee;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+/*FIN GALERIA*/
+
+footer{
+    background-image: url(fondo.jpg);
+    font-size: 20px;
+}
+
+.colum{
+    float:left;
+    width: 30%;
+    padding: 15px;
+   
+
+  }
+
+div a{
+    text-decoration:none;
+    color:black;
+}
+
+div a:hover{
+    background-color: rgba(241, 148, 179, 0.808);color:rgb(5, 5, 5);
+}
+
+div b:hover{
+    background-color: rgb(241, 148, 179);color:rgb(5, 5, 5);
+}
+
+.pago{
+
+    height: 65px;
+}
+
