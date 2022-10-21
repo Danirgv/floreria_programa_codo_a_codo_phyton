@@ -1,7 +1,8 @@
 body{
-    background-color: antiquewhite;
-    font-family: "Algerian"
-    
+    background: linear-gradient(to bottom left, rgba(239, 245, 245, 0.904) 50%, rgba(209, 109, 126, 0.377) 50%);
+    font-family: "Algerian";
+    border: 15px dotted white;
+    padding: 25px;
 }
 /* Incluye titulo y barra de navegación*/
 
@@ -52,10 +53,10 @@ header .navbar ul li a:hover{
 }
 
 .casa{
-    width: 100%;
-    image-rendering: auto;
-    height: 40vw;
-    float: right;
+        width: 80%;
+        image-rendering: auto;
+        height: 40vw;
+        float: right;
 }
 
 /* FIN IMG LOCAL*/
@@ -83,6 +84,14 @@ header .navbar ul li a:hover{
     align-items: center;
     justify-content: center;
     }
+
+div.contenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .contenedor > img{
     margin-left:2px ;
     height: 230px;

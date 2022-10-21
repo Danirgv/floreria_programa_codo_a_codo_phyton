@@ -1,0 +1,154 @@
+body{
+    margin: 30px 50px;
+    background: linear-gradient(to bottom left, rgba(239, 245, 245, 0.904) 50%, rgba(209, 109, 126, 0.377) 50%);
+    border: 15px dotted white;
+    padding: 25px;
+}
+
+.titulo2{
+    background-color: rgba(241, 148, 179, 0.808);
+    padding: 20px;
+    font-size: 28px;
+    color:white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+nav ul a{
+    text-decoration:none;
+    color:black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 0.5px;
+    
+    
+}
+ul{
+    list-style-type: none;  
+    margin-top: 1px;
+    background-color: rgba(241, 148, 179, 0.808);
+    color: rgb(20, 20, 19);
+    font-size: 17px;
+    font-family:fantasy; 
+    text-align: center;
+}
+
+li{
+    display: inline;
+    padding-left: 14px;
+}
+
+li a{
+    text-decoration:none;
+}
+
+li a:hover{
+    background-color: rgba(245, 110, 155, 0.509);
+    color:rgb(5, 5, 5);
+}
+.fondo_transp{
+    background-color: rgba(245, 245, 245, 0.537);
+}
+.texto{
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:large;
+
+}
+h3{
+    text-align: center;
+}
+
+img{
+    float: right;
+}
+table{
+    
+    margin-top: 100px;
+    margin-left: 350px; 
+  
+}
+
+th{
+    background-color: rgba(253, 54, 157, 0.569);
+    color:rgb(249, 246, 246);
+    font-family:'Times New Roman', Times, serif;
+}
+td{
+
+    background-color: rgba(222, 93, 202, 0.107);
+    color: black;
+    
+}
+th,td{
+    border: double 4px white;
+    padding: 10px;
+}
+td:hover {
+
+    background-color: pink;
+    cursor: pointer;
+}
+
+th:hover {
+
+    background-color: rgba(241, 185, 227, 0.931);
+    cursor: pointer;
+
+}
+table img{
+    width: 150px;
+}
+
+.volver{
+    margin-left: 900px;
+    padding: 15px;
+    color:black;
+    background-color: rgba(241, 148, 179, 0.904)
+}
+.colum{
+    float: left;
+    width: 30%;
+    padding: 15px;
+  }
+.colum p{
+    display: block;
+}
+.colum a{
+    display: block;
+}
+.colum img{
+    width: 100%;
+    border: 10px double white;
+    }
+
+footer:after {
+    content: "";
+    display: table;
+    clear: both;
+    color: black;
+  }
+h3{
+    background-color: rgba(241, 148, 179, 0.808);
+    padding: 10px;
+    font-size: 20;
+    color:white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+
+div a{
+    text-decoration:none;
+    color:black;
+}
+div a:hover{
+background-color: rgba(255, 255, 255, 0.575);
+color:rgb(5, 5, 5);
+}
+.derechos{
+    text-align: right;
+    color:rgba(0, 0, 0, 0.514)
+}

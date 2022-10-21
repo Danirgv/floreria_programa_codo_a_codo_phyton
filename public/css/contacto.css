@@ -1,0 +1,126 @@
+body{
+    margin: 30px 50px;
+    background: linear-gradient(to bottom left, rgba(239, 245, 245, 0.904) 50%, rgba(209, 109, 126, 0.377) 50%);
+    border: 15px dotted white;
+    padding: 25px;
+}
+.titulo2{
+    background-color: rgba(241, 148, 179, 0.808);
+    padding: 20px;
+    font-size: 28px;
+    color:white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    text-align: center;
+}
+nav ul a{
+    text-decoration:none;
+    color:black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 0.5px;
+    
+    
+}
+ul{
+    list-style-type: none;  
+    margin-top: 1px;
+    background-color: rgba(241, 148, 179, 0.808);
+    color: rgb(20, 20, 19);
+    font-size: 17px;
+    font-family:fantasy; 
+    text-align: center;
+}
+
+li{
+    display: inline;
+    padding-left: 14px;
+}
+
+li a{
+    text-decoration:none;
+}
+
+li a:hover{
+    background-color: rgba(245, 110, 155, 0.509);
+    color:rgb(5, 5, 5);
+}
+.fondo_-transparente{
+    background-color: rgba(245, 245, 245, 0.537);
+    padding-left: 15px;
+
+}
+
+.mapa{
+    margin-top:50px;
+    margin-right: 35px;
+    float: right;
+    height: 500px;
+    width: 50%;
+}
+.volver{
+    margin-left: 1010px;
+    padding: 15px;
+    color:black;
+    background-color: rgba(241, 148, 179, 0.904);
+}
+.comentario h3{
+    margin-left: 150px;
+}
+.comentario textarea{
+    margin-left: 50px;
+}
+.formulario{
+    margin-left: 50px;
+}
+.formulario h3{
+    margin-left: 100px;
+}
+.enviar{
+    margin-left: 200px;
+    padding: 7px;
+    color:black;
+    background-color: rgba(241, 148, 179, 0.808);
+    border: none;
+}
+
+.colum{
+    float: left;
+    width: 30%;
+    padding: 15px;
+  }
+.colum p{
+    display: block;
+}
+.colum a{
+    display: block;
+}
+.colum img{
+    width: 100%;
+    border: 10px double white;
+    }
+
+
+
+footer:after {
+
+    content: "";
+    display: table;
+    clear: both;
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+    color: black;
+  }
+
+
+div a{
+    text-decoration:none;
+    color:black;
+}
+div a:hover{
+background-color: rgba(255, 255, 255, 0.575);
+color:rgb(5, 5, 5);
+}
+
+.derechos{
+    text-align: right;
+    color:rgba(0, 0, 0, 0.514)
+}
