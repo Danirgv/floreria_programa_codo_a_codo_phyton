@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>FLORERIA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/API.css" />
+    <link rel="icon" href="../images/flor.png">
+</head>
+
+<header>
+    <nav class="navbar">
+        <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="sobre_nosotros.html">Sobre Nosotros</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="API.html">API</a></li>
+        </ul>
+        </nav>
+
+</header>
+<body>
+
+    <h3>Comentarios de Nuestros Clientes:</h3>
+<div>
+    <div id="demo">
+    </div>
+</div>
+
+<script>
+fetch('https://jsonplaceholder.typicode.com/posts/1/comments')
+  .then((respuesta) => respuesta.json())
+  .then((datos) => {console.log(datos)
+
+    datos.forEach(informacion => {console.log(informacion.body)
+
+const p = document.createElement("p")
+p.innerHTML= informacion.body + 'Estos son los comentarios de la Api';
+
+document.getElementById("demo").appendChild(p)
+ });
+})
+
+
+</script>
+</body>
