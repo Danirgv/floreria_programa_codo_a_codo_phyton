@@ -33,23 +33,31 @@ Información?"></a<i>O click aqui</i></a><br>
         <div>➟<b>   Nuestra dirección:</b> </div><br>
         <div>Mitre y Rivadavia, San Nicolas de los Arroyos</div>
     
-        <br><br><br><br><br> <br><br>
-   
-    <form method="" action="" class="formulario">
-        <h3> Dejanos tu comentario:</h3><br>
-        Nombre: <input type="text" name="nombre"><br><br>
-        Apellido: <input type="text" name="apellido"><br><br>
+   <div class="formulario">
+    <form method="" action="" class="formulario" name='fvalida'>
+        <div class="etiquetas-form"><h3>Contactate</h3>
+        <label for="nombre">Nombre: <input type="text" name="nombre"></label> 
+        <label for="apellido">Apellido: <input type="text" name="apellido"></label>
         
-    </form>
-    <div class="comentario">           
-        <textarea cols="50" rows="15"></textarea>
-    </div><br><br>
-    <div>
-
-    </div>
-    <input type="submit" value="ENVIAR" class="enviar"><br><br><br><br>
+        Motivo de contacto:
+        <select name="interes">
+            <option value="#">Elegir</option>
+            <option value="Comercial">Contacto comercial</option>
+            <option value="Clientes">Atención al cliente</option>
+            <option value="Evento">Pedir presupuesto para evento</option>
+            <option value="Proveedores">Contacto proveedores</option>
+            <option value="Otro">Otro</option>
+        </select>
+        <label for="comentario">Dejanos tu consulta:<div class="comentario">           
+            <textarea cols="50" rows="15" name="consulta"></textarea>
+        </div></label>
     
-<a href="floreria.html" class="volver"> VOLVER </a><br><br><br><br>
+        <input type="button" value="Enviar" onclick="valida_envia()">
+    </div>
+    </form>
+</div>
+    
+<a href="home.html" class="volver"> VOLVER </a><br><br><br><br>
 
 
 </div>
@@ -80,6 +88,6 @@ Información?"></a<i>O click aqui</i></a><br>
         </div>
 
     </footer>
-
+<script src="../../src/script.js"></script>
 </body>
 </html>
