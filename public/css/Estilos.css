@@ -1,0 +1,207 @@
+* {
+    margin: 0px;
+    padding: 5px;
+    box-sizing: border-box;
+      
+}
+body{
+    font: oblique;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+}
+a{ text-decoration: none;}
+.encabezado {
+    background-color: rgba(216, 112, 147, 0.454);
+    display: flex;
+    flex-flow: column nowrap;
+    color: rgb(15, 15, 70);
+
+}
+.margen-interno{
+    padding: 0 50px;
+}
+.header {
+    background:url(../Imagenes/fondo.jpg);
+    background-position: center;
+    background-attachment: contain;
+    background-size: cover;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    background: rgba(255, 192, 203, 0.196) ;
+    flex-flow: nowrap;
+    height: 70 px;
+    display: flex;    
+    align-items: center;
+    border-bottom: 2px solid rgba(128, 27, 128, 0.189); 
+    
+}
+
+.logo {
+    
+    flex: 1 1 auto;
+    align-items: center;     
+    
+}
+    .logo a:hover{color: #000;;}
+
+.nav {
+    
+    flex: 5 1 auto;
+    display: flex;
+    }
+
+    .nav a:hover{ color: #000;}
+
+    .navegar a{
+        font-size: 15px;
+        padding: 0 10px;
+        letter-spacing: 3px;
+        color: aliceblue;
+        text-align: center;
+        align-items: center;
+
+    }
+
+     .naveg a:hover{
+        color:#fff;;
+        }
+
+.social {  
+    
+    flex: 1 1 auto;
+    display: flex;
+    padding: 0 5px;
+}
+    .social a{font-size: 18px;
+                letter-spacing: 3px;
+                padding: 0 3px;}
+.principal {
+    background-color: rgba(192, 233, 255, 0.507);
+}
+
+h1 {
+    
+    background-color: rgba(255, 230, 192, 0.313);
+    background-position: center;
+    background-attachment: contain;
+    background-size: cover;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    font-style: oblique;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+        
+
+}
+
+.seccion {
+    background-color: rgba(255, 230, 192, 0.886);
+    display: flex;
+
+}
+
+.productos {
+    background-color: rgba(233, 150, 122, 0.406);
+    flex: 2 1 auto;
+    display: flex;
+    flex-flow: row wrap;
+    cursor: -webkit-zoom-in;
+    z-index: 23;
+}
+    .article{
+        flex: 1 1 30%;
+        font-size: 13px;
+        letter-spacing: 1px;
+        margin: 10px 10px 0 0px;
+        background: #ececec;
+        margin-bottom: 3px;
+    }
+        .article{width: 100%;}
+.flores {
+    background-color: bisque;
+    flex: 1 1 30%;
+    text-align: center;
+}
+h5{
+
+    padding:10 px 0;
+    margin: 0px;
+    align-items: center;}
+    
+.naveg {
+    background-color: beige;
+    flex: 1 1 100%;
+}
+h6{
+    padding:10 px 0;
+    margin: 1px;
+    align-items: center;}
+
+
+.aside {
+    background-color: rgba(137, 43, 226, 0.265);
+    flex: 1 1 auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.Tipos {
+    background-color: rgba(128, 27, 128, 0.189);
+}
+
+.footer {
+    background-color: plum;
+  
+   
+
+}
+
+.pie {
+    background-color: aliceblue;
+    width: 70px;
+}
+
+@media all and(max-width=850px) {
+    .section{
+        flex-direction: column;
+    }
+    .menu{
+    flex-direction: column;
+    height: auto;}
+
+    .aside{display: flex;
+        justify-content: center;}
+
+}
+@media all and (max-width: 760px){
+    .productos{ flex-direction: column;}
+    h1{font-size: 15px}
+}
+@media all and (max-width: 450px){
+    .sin{display: none;}
+    .nav{font-size: 24px;}
+}
+
+
+@media all and(max-width: 350px){
+        .aside{flex-direction: column;}
+}
+
+input{
+    background-color: rgba(245, 237, 220, 0.596);
+    display:inline-block ;
+    
+}
+.contener{display: grid;
+    grid-template-columns: auto;
+    padding: 10px;
+    text-align: center;
+
+}
+    
