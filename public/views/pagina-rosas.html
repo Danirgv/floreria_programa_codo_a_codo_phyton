@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/Estilos.css">
+    <link rel="stylesheet" href="../css/Estilos.css">
     <script src="https://kit.fontawesome.com/23e697d8cf.js" crossorigin="anonymous"></script>
     <title>Rosas</title>
 
@@ -22,14 +22,14 @@
         <header class="header margen-interno">
             <div class="menu">
                 <div class="logo">
-                    <a href="index.html"><img src="imagenes/Logo.png" width="70 %" alt="Logo"></a>
+                    <a href="index.html"><img src="../images/Logo.png" width="70 %" alt="Logo"></a>
                 </div>
 
                 <div class="nav">
-                    <a href="#"><i class="fa-sharp fa-solid fa-house"></i><span class="sin">Inicio</span></a>
-                    <a href="#"><i class="fa-sharp fa-solid fa-star"></i><span class="sin"> Nosotros</span></a>
-                    <a href="#"><i class="fa-sharp fa-solid fa-thumbtack"></i><span class="sin">Ubicación</span></a>
-                    <a href="#"><i class="fa-solid fa-envelope"></i></i><span class="sin">Contacto</span></a>
+                    <a href="home.html"><i class="fa-sharp fa-solid fa-house"></i><span class="sin">Inicio</span></a>
+                    <a href="sobre_nosotros.html"><i class="fa-sharp fa-solid fa-star"></i><span class="sin"> Nosotros</span></a>
+                    <a href="API.html"><i class="fa-sharp fa-solid fa-thumbtack"></i><span class="sin">API</span></a>
+                    <a href="contacto.html"><i class="fa-solid fa-envelope"></i></i><span class="sin">Contacto</span></a>
                 </div>
                 <div class="social">
                     <div>
@@ -51,38 +51,38 @@
         <section class="seccion margen-interno">
             <div class="productos">
                 <article class="flores">
-                    <img src="imagenes/ROSAS10.jpeg" width="200px" heigth="150px" alt="Rosas Rojas">
+                    <img src="../images/ROSAS10.jpeg" width="200px" heigth="150px" alt="Rosas Rojas">
                     <h5>Rosas Rojas
                         <input class="pedido" type="number">
                         <h6>Cantidad por unidad</h6>
                 </article>
                 <article class="flores">
-                    <img src="imagenes/ROSAS13.jpeg" width="200px" heigth="150px" alt="Rosas Amarillas">
+                    <img src="../images/ROSAS13.jpeg" width="200px" heigth="150px" alt="Rosas Amarillas">
                     <h5>Rosas Amarillas</h5>
                     <input class="pedido" type="number">
                     <h6>Cantidad por unidad</h6>
                 </article>
                 <article class="flores">
-                    <img src="imagenes/ROSAS12.jpeg" width="200px" heigth="150px" alt="Rosas Blancas">
+                    <img src="../images/ROSAS12.jpeg" width="200px" heigth="150px" alt="Rosas Blancas">
                     <h5>Rosas Blancas</h5>
                     <input class="pedido" type="number">
                     <h6>Cantidad por unidad</h6>
                 </article>
                 <article class="flores">
-                    <img src="imagenes/rosasrosas1.jpg" width="200px" heigth="150px" alt="Rosas Rosadas">
+                    <img src="../images/rosasrosas1.jpg" width="200px" heigth="150px" alt="Rosas Rosadas">
                     <h5>Rosas Rosadas</h5>
                     <input class="pedido" type="number">
                     <h6>Cantidad por unidad</h6>
                 </article>
 
                 <article class="flores">
-                    <img src="imagenes/rosas azules.jpg" width="200px" heigth="150px" alt="Rosas Azules">
+                    <img src="../images/rosas azules.jpg" width="200px" heigth="150px" alt="Rosas Azules">
                     <h5>Rosas Azules</h5>
                     <input class="pedido" type="number">
                     <h6>Cantidad por unidad</h6>
                 </article>
                 <article class="flores">
-                    <img src="imagenes/rosas-naranjas.jfif" width="220px" heigth="150px" alt="Rosas Naranja">
+                    <img src="../images/rosas-naranjas.jfif" width="220px" heigth="150px" alt="Rosas Naranja">
                     <h5>Rosas Anaranjadas</h5>
                     <input class="pedido" type="number">
                 </article>
@@ -104,23 +104,23 @@
                 <h4>Algunos arreglos</h4>
                 <div class="Tipos">
                     <div>
-                        <img src="imagenes/osito y rosas.jpg" width="120px" alt="arreglos especiales">
+                        <img src="../images/osito y rosas.jpg" width="120px" alt="arreglos especiales">
                         <p>Rosas y mas</p>
                     </div>
                 </div>
                 <div class="Tipos">
-                    <img src="imagenes/rosas y chocolates.jfif" width="120px" alt="regalos especiales">
+                    <img src="../images/rosas y chocolates.jfif" width="120px" alt="regalos especiales">
                     <p>Rosas y chocolates</p>
                 </div>
                 <div class="Tipos">
-                    <img src="imagenes/corazon de rosas.jpg" width="120px" alt="">
+                    <img src="../images/corazon de rosas.jpg" width="120px" alt="">
                     <p>Corazon de Rosas</p>
                 </div>
             </aside>
         </section>
         <footer class="footer margen-interno">
             <div class="contener">
-                <form action="">
+                <form action="" name="fproductos">
                     <fieldset>
                         <legend>Datos personales</legend>
 
@@ -128,12 +128,12 @@
                         <input type="text" id="nombre" name="nombre" placeholder="escriba su nombre"><br><br>
 
                         <label for="Apellido">APELLIDO: </label>
-                        <input type="text" id="Apellido" name="Apellido" placeholder="escriba su apellido"><br><br>
+                        <input type="text" id="Apellido" name="apellido" placeholder="escriba su apellido"><br><br>
 
                         <label for="DNI">DNI</label>
-                        <input type="number"><br><br>
+                        <input type="number" name="dni"><br><br>
 
-                        <label for="correo electrónico">Correo electrónico:</label>
+                        <label for="correo electrónico" name="correo" >Correo electrónico:</label>
                         <input type="email"> <br><br>
 
                         <label for="fecnac">Fecha de nacimiento:</label>
@@ -141,6 +141,8 @@
                         <br><br>
                         <label for="Soliciud">Soliciud de presupuesto</label>
                         <input type="text" id="Presupuesto" placeholder="Detalle su solicitud">
+
+                        <input type="button" value="Enviar" onclick="valida_boton()">
                     </fieldset>
 
                 </form>
@@ -148,9 +150,10 @@
 
         </footer>
         <br>
-        <a href="#">Desarrollado por Marina, Rocio y Daniela</a>
+        <a href="#">Desarrollado por Marina y Daniela</a>
     </div>
 
+<script src="../../src/validacion-form.js"></script>
 </body>
 
 </html>
